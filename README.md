@@ -1,16 +1,14 @@
-# flutter_animated_tesla_app
+<h3 align="center">Animated Tesla Car Control App</h3>
 
-A new Flutter project.
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+## How to Contribute
 
-A few resources to get you started if this is your first Flutter project:
+contributions are welcome from the community to enhance the features and functionality of this project. If you're interested in contributing, follow these steps:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+1. Fork the repository to your GitHub account.
+2. Make your desired changes and improvements to the project.
+3. Test your changes thoroughly to ensure they work as intended.
+4. Submit a pull request to the main repository, detailing the changes you've made and any relevant information.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Thank You !
