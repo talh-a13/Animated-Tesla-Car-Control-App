@@ -1,6 +1,9 @@
+// ignore: file_names
+// ignore_for_file: deprecated_member_use
+
 import 'package:flutter/material.dart';
 import 'package:flutter_animated_tesla_app/Screens/contstraint.dart';
-import 'package:flutter_animated_tesla_app/Screens/animation_config.dart';
+
 import 'package:flutter_animated_tesla_app/Screens/Components/animated_widgets.dart';
 
 class BatteryStatus extends StatefulWidget {
@@ -104,16 +107,16 @@ class _BatteryStatusState extends State<BatteryStatus>
                   offset: Offset(0, 20 * (1 - _staggeredAnimations[1].value)),
                   child: Opacity(
                     opacity: _staggeredAnimations[1].value,
-                    child: AnimatedGlow(
+                    child: const AnimatedGlow(
                       glowColor: batteryGlow,
                       glowRadius: 25,
                       isGlowing: true,
-                      duration: const Duration(milliseconds: 2000),
+                      duration: Duration(milliseconds: 2000),
                       child: AnimatedCounter(
                         value: 62,
                         suffix: ' %',
-                        duration: const Duration(milliseconds: 1500),
-                        textStyle: const TextStyle(
+                        duration: Duration(milliseconds: 1500),
+                        textStyle: TextStyle(
                           fontSize: 24,
                           fontWeight: FontWeight.bold,
                           color: Colors.white,
@@ -133,9 +136,9 @@ class _BatteryStatusState extends State<BatteryStatus>
                     child: AnimatedShimmer(
                       baseColor: primaryColor.withOpacity(0.3),
                       highlightColor: primaryColor.withOpacity(0.6),
-                      child: Text(
+                      child: const Text(
                         'CHARGING',
-                        style: const TextStyle(
+                        style: TextStyle(
                           fontSize: 24,
                           fontWeight: FontWeight.bold,
                           letterSpacing: 2,
@@ -152,11 +155,11 @@ class _BatteryStatusState extends State<BatteryStatus>
                   offset: Offset(0, 20 * (1 - _staggeredAnimations[3].value)),
                   child: Opacity(
                     opacity: _staggeredAnimations[3].value,
-                    child: AnimatedCounter(
+                    child: const AnimatedCounter(
                       value: 18,
                       suffix: ' min remaining',
-                      duration: const Duration(milliseconds: 1500),
-                      textStyle: const TextStyle(
+                      duration: Duration(milliseconds: 1500),
+                      textStyle: TextStyle(
                         fontSize: 20,
                         color: Colors.white70,
                       ),
@@ -171,8 +174,8 @@ class _BatteryStatusState extends State<BatteryStatus>
                   offset: Offset(0, 20 * (1 - _staggeredAnimations[4].value)),
                   child: Opacity(
                     opacity: _staggeredAnimations[4].value,
-                    child: DefaultTextStyle(
-                      style: const TextStyle(
+                    child: const DefaultTextStyle(
+                      style: TextStyle(
                         fontSize: 18,
                         fontWeight: FontWeight.bold,
                         color: Colors.white70,
@@ -183,8 +186,8 @@ class _BatteryStatusState extends State<BatteryStatus>
                           AnimatedCounter(
                             value: 22,
                             suffix: ' mi/hr',
-                            duration: const Duration(milliseconds: 1500),
-                            textStyle: const TextStyle(
+                            duration: Duration(milliseconds: 1500),
+                            textStyle: TextStyle(
                               fontSize: 18,
                               fontWeight: FontWeight.bold,
                               color: Colors.white70,
@@ -193,8 +196,8 @@ class _BatteryStatusState extends State<BatteryStatus>
                           AnimatedCounter(
                             value: 232,
                             suffix: ' v',
-                            duration: const Duration(milliseconds: 1500),
-                            textStyle: const TextStyle(
+                            duration: Duration(milliseconds: 1500),
+                            textStyle: TextStyle(
                               fontSize: 18,
                               fontWeight: FontWeight.bold,
                               color: Colors.white70,

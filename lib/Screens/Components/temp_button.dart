@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_animated_tesla_app/Screens/contstraint.dart';
 import 'package:flutter_animated_tesla_app/Screens/animation_config.dart';
-import 'package:flutter_animated_tesla_app/Screens/Components/animated_widgets.dart';
 import 'package:flutter_animated_tesla_app/Services/haptic_service.dart';
 import 'package:flutter_svg/svg.dart';
 
